@@ -10,7 +10,8 @@
 
 fn main(){
 
-	for  i in range(1,100){
+
+	for i in 1u32..101{
 		
 		if i % 15 == 0 {
 			println!("FizzBuzz");
