@@ -14,7 +14,7 @@ fn main(){
 		(20...26,true) => {
 			println!("Case A");
 			}
-		(_,true) => {
+		(y,true) if y < 20 || y > 26  => {
 			println!("Case B");
 		}
 		(40...49,_) => {
