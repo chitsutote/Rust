@@ -10,7 +10,7 @@
 
 fn main(){
 
-
+    //1u32 means nubmer 1 in type unsigned integers 1 u32
 	for i in 1u32..101{
 		
 		if i % 15 == 0 {
