@@ -1,9 +1,13 @@
-//let x = (24 , true);
-
+// An Exercise in Matching 
+//
+// (a) if the bool is true and the int is between 20 and 26, 
+// (b) if the bool is true and the aforementioned condition isn't true for the int, 
+// (c) if the int is between 40 and 49 (where the value of the bool doesn't matter), and
+// (d), wherein none of the previous conditions are true
 
 fn main(){
 
-    let x = (24 , true);
+    let x = (42 , true);
 	
 	match x{
 	
